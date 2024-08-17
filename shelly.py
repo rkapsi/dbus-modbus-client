@@ -17,7 +17,7 @@ class ShellyEnergyMeter(device.CustomName, device.EnergyMeter):
         # Increase default timeout
         self.min_timeout = 0.5
         # Shelly Modbus devices oddly use input registers for everything
-        self.register_type = device.RegisterType.INPUT
+        self.default_access = 'input'
         self.nr_phases = 3
 
     def device_init(self):
