@@ -59,7 +59,7 @@ class Shelly_Pro_3EM(Shelly_Meter):
 
 models = {
     Shelly_Pro_3EM.productid: {
-        'model':    'SPEM-003CE',
+        'model':    'SPEM-003CEBEU',
         'handler':  Shelly_Pro_3EM,
     },
 }
